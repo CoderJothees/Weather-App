@@ -94,7 +94,7 @@ function HomePage() {
             <div className="weather">
                 <div className="search">
 
-                    <input type="text" placeholder='Enter city name Testing' onChange={ev => setCityName(ev.target.value)} />
+                    <input type="text" placeholder='Enter city name Testing succuss' onChange={ev => setCityName(ev.target.value)} />
                     <button className='searchBTN' onClick={WeatherApiCall}><BsSearch /></button>
 
                 </div>
